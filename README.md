@@ -45,7 +45,7 @@ at all. I tried to come up with various different ways that could work. I've lis
 
   ✅ Generates correct output.
 
-- `"compile:swc:inner:absolute"` (`"swc $PWD -d $PWD/dist --config-file $PWD/.swcrc"`)
+- `"compile:swc:inner:absolute"` (`swc $PWD -d $PWD/dist --config-file $PWD/.swcrc`)
 
   ❌ Generates a malformed (flattened) directory structure.
 
