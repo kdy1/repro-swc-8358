@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "rootDir": ".",
+        "baseUrl": ".",
+        "paths": {
+            "@generated/*": ["generated/*"],
+            "@app/*": ["src/*"],
+        },
+        "composite": true,
+        "isolatedModules": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es2020",
+        "outDir": "dist",
+        "strict": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+      },
+    "include": ["src/**/*", "integration-tests/**/*", "generated/**/*"],
+}
