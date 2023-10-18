@@ -1,11 +1,18 @@
 {
-  "name": "swc-input-bug",
-  "packageManager": "yarn@3.4.1",
+  "name": "swc-folders-bug",
+  "private": true,
+  "author": {
+    "name": "Andrzej Wódkiewicz"
+  },
+  "repository": {
+    "url": "https://github.com/akwodkiewicz/swc-folders-bug"
+  },
   "workspaces": [
     "packages/backend"
   ],
   "devDependencies": {
     "@swc/cli": "^0.1.62",
     "@swc/core": "^1.3.93"
-  }
+  },
+  "packageManager": "yarn@3.4.1"
 }
