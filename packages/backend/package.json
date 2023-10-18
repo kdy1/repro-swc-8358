@@ -11,7 +11,7 @@
     "compile:swc:inner:relative": "run clean && run swc . -d dist",
     "compile:swc:outer:relative": "run clean && cd ..; yarn run -T swc backend -d backend/dist --config-file backend/.swcrc",
     "compile:swc:outer:absolute": "run clean && cd ..; yarn run -T swc $PWD -d $PWD/dist --config-file $PWD/.swcrc",
-    "compile:swc:inner:absolute": "run clean && run swc $PWD -d $PWD/dist --config-file $PWD/.swcrc",
+    "compile:swc:inner:absolute": "run clean && run swc $PWD -d $PWD/dist",
     "start": "TS_NODE_PROJECT=./tsconfig-js.json node -r tsconfig-paths/register dist/src/main.js"
   },
   "devDependencies": {
