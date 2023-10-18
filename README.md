@@ -1,5 +1,7 @@
 ## Running swc on multiple folders in a monorepo workspace
 
+This repository is a minimal reproduction of a problem I filed in the swc repository: https://github.com/swc-project/swc/issues/8139
+
 In this monorepo there is a single `backend` project. It consists of 3 "root" folders:
 
 - `integration-tests`
