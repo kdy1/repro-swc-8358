@@ -13,7 +13,6 @@
             "dynamicImport": true
         },
         "paths": {
-            "./": ["./src"],
             "@generated/*": ["generated/*"],
             "@app/*": ["src/*"]
         },
