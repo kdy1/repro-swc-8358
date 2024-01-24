@@ -15,8 +15,8 @@
     "start": "TS_NODE_PROJECT=./tsconfig-js.json node -r tsconfig-paths/register dist/src/main.js"
   },
   "devDependencies": {
-    "@swc/cli": "~0.1.62",
-    "@swc/core": "~1.3.93",
+    "@swc/cli": "latest",
+    "@swc/core": "latest",
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2"
   },

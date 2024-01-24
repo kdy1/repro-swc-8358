@@ -124,40 +124,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/cli@npm:~0.1.62":
-  version: 0.1.62
-  resolution: "@swc/cli@npm:0.1.62"
-  dependencies:
-    "@mole-inc/bin-wrapper": ^8.0.1
-    commander: ^7.1.0
-    fast-glob: ^3.2.5
-    semver: ^7.3.8
-    slash: 3.0.0
-    source-map: ^0.7.3
-  peerDependencies:
-    "@swc/core": ^1.2.66
-    chokidar: ^3.5.1
-  peerDependenciesMeta:
-    chokidar:
-      optional: true
-  bin:
-    spack: bin/spack.js
-    swc: bin/swc.js
-    swcx: bin/swcx.js
-  checksum: d44e88a724ba32d4f63856f15899f8eff78d90d0c5452e4882412307bf6353a64b25e7dc9992fd6e3975c87e6c0d7b494d859a0d8badb9f3c6103623ca89ddc2
-  languageName: node
-  linkType: hard
-
 "@swc/core-darwin-arm64@npm:1.3.105":
   version: 1.3.105
   resolution: "@swc/core-darwin-arm64@npm:1.3.105"
-  conditions: os=darwin & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@swc/core-darwin-arm64@npm:1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core-darwin-arm64@npm:1.3.93"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
@@ -169,23 +138,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-darwin-x64@npm:1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core-darwin-x64@npm:1.3.93"
-  conditions: os=darwin & cpu=x64
-  languageName: node
-  linkType: hard
-
 "@swc/core-linux-arm-gnueabihf@npm:1.3.105":
   version: 1.3.105
   resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.105"
-  conditions: os=linux & cpu=arm
-  languageName: node
-  linkType: hard
-
-"@swc/core-linux-arm-gnueabihf@npm:1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core-linux-arm-gnueabihf@npm:1.3.93"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
@@ -197,23 +152,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-linux-arm64-gnu@npm:1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core-linux-arm64-gnu@npm:1.3.93"
-  conditions: os=linux & cpu=arm64 & libc=glibc
-  languageName: node
-  linkType: hard
-
 "@swc/core-linux-arm64-musl@npm:1.3.105":
   version: 1.3.105
   resolution: "@swc/core-linux-arm64-musl@npm:1.3.105"
-  conditions: os=linux & cpu=arm64 & libc=musl
-  languageName: node
-  linkType: hard
-
-"@swc/core-linux-arm64-musl@npm:1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core-linux-arm64-musl@npm:1.3.93"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
@@ -225,23 +166,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-linux-x64-gnu@npm:1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core-linux-x64-gnu@npm:1.3.93"
-  conditions: os=linux & cpu=x64 & libc=glibc
-  languageName: node
-  linkType: hard
-
 "@swc/core-linux-x64-musl@npm:1.3.105":
   version: 1.3.105
   resolution: "@swc/core-linux-x64-musl@npm:1.3.105"
-  conditions: os=linux & cpu=x64 & libc=musl
-  languageName: node
-  linkType: hard
-
-"@swc/core-linux-x64-musl@npm:1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core-linux-x64-musl@npm:1.3.93"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
@@ -253,13 +180,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-win32-arm64-msvc@npm:1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core-win32-arm64-msvc@npm:1.3.93"
-  conditions: os=win32 & cpu=arm64
-  languageName: node
-  linkType: hard
-
 "@swc/core-win32-ia32-msvc@npm:1.3.105":
   version: 1.3.105
   resolution: "@swc/core-win32-ia32-msvc@npm:1.3.105"
@@ -267,23 +187,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core-win32-ia32-msvc@npm:1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core-win32-ia32-msvc@npm:1.3.93"
-  conditions: os=win32 & cpu=ia32
-  languageName: node
-  linkType: hard
-
 "@swc/core-win32-x64-msvc@npm:1.3.105":
   version: 1.3.105
   resolution: "@swc/core-win32-x64-msvc@npm:1.3.105"
-  conditions: os=win32 & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@swc/core-win32-x64-msvc@npm:1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core-win32-x64-msvc@npm:1.3.93"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -334,52 +240,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@swc/core@npm:~1.3.93":
-  version: 1.3.93
-  resolution: "@swc/core@npm:1.3.93"
-  dependencies:
-    "@swc/core-darwin-arm64": 1.3.93
-    "@swc/core-darwin-x64": 1.3.93
-    "@swc/core-linux-arm-gnueabihf": 1.3.93
-    "@swc/core-linux-arm64-gnu": 1.3.93
-    "@swc/core-linux-arm64-musl": 1.3.93
-    "@swc/core-linux-x64-gnu": 1.3.93
-    "@swc/core-linux-x64-musl": 1.3.93
-    "@swc/core-win32-arm64-msvc": 1.3.93
-    "@swc/core-win32-ia32-msvc": 1.3.93
-    "@swc/core-win32-x64-msvc": 1.3.93
-    "@swc/counter": ^0.1.1
-    "@swc/types": ^0.1.5
-  peerDependencies:
-    "@swc/helpers": ^0.5.0
-  dependenciesMeta:
-    "@swc/core-darwin-arm64":
-      optional: true
-    "@swc/core-darwin-x64":
-      optional: true
-    "@swc/core-linux-arm-gnueabihf":
-      optional: true
-    "@swc/core-linux-arm64-gnu":
-      optional: true
-    "@swc/core-linux-arm64-musl":
-      optional: true
-    "@swc/core-linux-x64-gnu":
-      optional: true
-    "@swc/core-linux-x64-musl":
-      optional: true
-    "@swc/core-win32-arm64-msvc":
-      optional: true
-    "@swc/core-win32-ia32-msvc":
-      optional: true
-    "@swc/core-win32-x64-msvc":
-      optional: true
-  peerDependenciesMeta:
-    "@swc/helpers":
-      optional: true
-  checksum: cf8cf2b01d84f057525f45728fd8d2400fc6c2ae31a11571bdd5513fd3a2cae096b4a8ea5273a5d69d1e1279a52322940ff0f56e918ceead2ef176a7af6fa7a8
-  languageName: node
-  linkType: hard
-
 "@swc/counter@npm:^0.1.1":
   version: 0.1.2
   resolution: "@swc/counter@npm:0.1.2"
@@ -423,9 +283,9 @@ __metadata:
   linkType: hard
 
 "@types/http-cache-semantics@npm:*":
-  version: 4.0.2
-  resolution: "@types/http-cache-semantics@npm:4.0.2"
-  checksum: 513429786a45d8124f93cc7ea1454b692008190ef743e9fec75a6a3c998309782d216f1e67d7d497ffece9c9212310ae05a8c56e8955492ee400eacdd7620e61
+  version: 4.0.4
+  resolution: "@types/http-cache-semantics@npm:4.0.4"
+  checksum: 7f4dd832e618bc1e271be49717d7b4066d77c2d4eed5b81198eb987e532bb3e1c7e02f45d77918185bad936f884b700c10cebe06305f50400f382ab75055f9e8
   languageName: node
   linkType: hard
 
@@ -439,20 +299,20 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*":
-  version: 20.8.6
-  resolution: "@types/node@npm:20.8.6"
+  version: 20.11.5
+  resolution: "@types/node@npm:20.11.5"
   dependencies:
-    undici-types: ~5.25.1
-  checksum: ccfb7ac482c5a96edeb239893c5c099f5257fcc2ed9ae62fefdfbc782b79e16dbc2af9a85b379665237bf759904b44ca2be68e75d239e0297882aad42f61905c
+    undici-types: ~5.26.4
+  checksum: a542727de1334ae20a3ca034b0ecf4b464a57ca01efc4f9cf43bd9ab93896125ab3c2de060ecd8f6ae23b86c6bf3463f681b643e69c032c6a662d376c98a6092
   languageName: node
   linkType: hard
 
 "@types/responselike@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "@types/responselike@npm:1.0.1"
+  version: 1.0.3
+  resolution: "@types/responselike@npm:1.0.3"
   dependencies:
     "@types/node": "*"
-  checksum: ae8c36c9354aaedfa462dab655aa17613529d545a418acc54ba0214145fc1d0454be2ae107031a1b2c24768f19f2af7e4096a85d1e604010becd0bec2355cb0e
+  checksum: 6ac4b35723429b11b117e813c7acc42c3af8b5554caaf1fc750404c1ae59f9b7376bc69b9e9e194a5a97357a597c2228b7173d317320f0360d617b6425212f58
   languageName: node
   linkType: hard
 
@@ -523,8 +383,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "backend@workspace:packages/backend"
   dependencies:
-    "@swc/cli": ~0.1.62
-    "@swc/core": ~1.3.93
+    "@swc/cli": latest
+    "@swc/core": latest
     tsconfig-paths: ^4.2.0
     typescript: ^5.2.2
   languageName: unknown
@@ -861,24 +721,24 @@ __metadata:
   linkType: hard
 
 "fast-glob@npm:^3.2.5":
-  version: 3.3.1
-  resolution: "fast-glob@npm:3.3.1"
+  version: 3.3.2
+  resolution: "fast-glob@npm:3.3.2"
   dependencies:
     "@nodelib/fs.stat": ^2.0.2
     "@nodelib/fs.walk": ^1.2.3
     glob-parent: ^5.1.2
     merge2: ^1.3.0
     micromatch: ^4.0.4
-  checksum: b6f3add6403e02cf3a798bfbb1183d0f6da2afd368f27456010c0bc1f9640aea308243d4cb2c0ab142f618276e65ecb8be1661d7c62a7b4e5ba774b9ce5432e5
+  checksum: 900e4979f4dbc3313840078419245621259f349950411ca2fa445a2f9a1a6d98c3b5e7e0660c5ccd563aa61abe133a21765c6c0dec8e57da1ba71d8000b05ec1
   languageName: node
   linkType: hard
 
 "fastq@npm:^1.6.0":
-  version: 1.15.0
-  resolution: "fastq@npm:1.15.0"
+  version: 1.16.0
+  resolution: "fastq@npm:1.16.0"
   dependencies:
     reusify: ^1.0.4
-  checksum: 0170e6bfcd5d57a70412440b8ef600da6de3b2a6c5966aeaf0a852d542daff506a0ee92d6de7679d1de82e644bce69d7a574a6c93f0b03964b5337eed75ada1a
+  checksum: 1d40ed1f100ae625e5720484e8602b7ad07649370f1cbc3e34a6b9630a0bfed6946bab0322d8a368a1e3cde87bb9bbb8d3bc2ae01a0c1f022fac1d07c04e4feb
   languageName: node
   linkType: hard
 
@@ -2062,29 +1922,29 @@ __metadata:
   linkType: hard
 
 "typescript@npm:^5.2.2":
-  version: 5.2.2
-  resolution: "typescript@npm:5.2.2"
+  version: 5.3.3
+  resolution: "typescript@npm:5.3.3"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 7912821dac4d962d315c36800fe387cdc0a6298dba7ec171b350b4a6e988b51d7b8f051317786db1094bd7431d526b648aba7da8236607febb26cf5b871d2d3c
+  checksum: 2007ccb6e51bbbf6fde0a78099efe04dc1c3dfbdff04ca3b6a8bc717991862b39fd6126c0c3ebf2d2d98ac5e960bcaa873826bb2bb241f14277034148f41f6a2
   languageName: node
   linkType: hard
 
 "typescript@patch:typescript@^5.2.2#~builtin<compat/typescript>":
-  version: 5.2.2
-  resolution: "typescript@patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=1f5320"
+  version: 5.3.3
+  resolution: "typescript@patch:typescript@npm%3A5.3.3#~builtin<compat/typescript>::version=5.3.3&hash=1f5320"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 07106822b4305de3f22835cbba949a2b35451cad50888759b6818421290ff95d522b38ef7919e70fb381c5fe9c1c643d7dea22c8b31652a717ddbd57b7f4d554
+  checksum: f61375590b3162599f0f0d5b8737877ac0a7bc52761dbb585d67e7b8753a3a4c42d9a554c4cc929f591ffcf3a2b0602f65ae3ce74714fd5652623a816862b610
   languageName: node
   linkType: hard
 
-"undici-types@npm:~5.25.1":
-  version: 5.25.3
-  resolution: "undici-types@npm:5.25.3"
-  checksum: ec9d2cc36520cbd9fbe3b3b6c682a87fe5be214699e1f57d1e3d9a2cb5be422e62735f06e0067dc325fd3dd7404c697e4d479f9147dc8a804e049e29f357f2ff
+"undici-types@npm:~5.26.4":
+  version: 5.26.5
+  resolution: "undici-types@npm:5.26.5"
+  checksum: 3192ef6f3fd5df652f2dc1cd782b49d6ff14dc98e5dced492aa8a8c65425227da5da6aafe22523c67f035a272c599bb89cfe803c1db6311e44bed3042fc25487
   languageName: node
   linkType: hard
 
