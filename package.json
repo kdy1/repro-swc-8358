@@ -14,5 +14,8 @@
     "@swc/cli": "latest",
     "@swc/core": "latest"
   },
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.4.1",
+  "resolutions": {
+    "@swc/cli": "portal:/Users/kdy1/projects/cli"
+  }
 }
